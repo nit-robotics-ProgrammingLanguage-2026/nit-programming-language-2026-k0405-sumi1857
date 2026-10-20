@@ -9,7 +9,13 @@ int main(void) {
      これらの値すべてをdouble型として計算した計算結果のa(桁数指定なし)を表示するようなプログラムとせよ．
      */
     
+    double x;
+    double a;
 
+    scanf("%lf",&x);
+
+    a=x/(4.0*3.141592)*360.0;
+    printf("%f\n",a);
 
      
     return 0;
